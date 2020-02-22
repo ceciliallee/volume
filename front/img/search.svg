@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="28.034" height="28.152" viewBox="0 0 28.034 28.152">
   <g id="search" transform="translate(1 1.118)">
-    <circle id="Ellipse_1" data-name="Ellipse 1" cx="11.5" cy="11.5" r="11.5" transform="translate(0 -0.118)" stroke-width="2" stroke="#c6c6c6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <line id="Line_1" data-name="Line 1" x1="6.191" y1="6.191" transform="translate(19.428 19.428)" fill="none" stroke="#c6c6c6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="11.5" cy="11.5" r="11.5" transform="translate(0 -0.118)" stroke-width="2" stroke="#907dfa" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line id="Line_1" data-name="Line 1" x1="6.191" y1="6.191" transform="translate(19.428 19.428)" fill="none" stroke="#907dfa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </g>
 </svg>

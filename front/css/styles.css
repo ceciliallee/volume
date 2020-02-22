@@ -9,25 +9,27 @@ body {
 .content {
     display: flex;
     justify-content: space-around;
-    margin: auto;
+    margin-top: 250px;
 }
 
 .right {
     font-weight: 600;
     color: white;
+    width: 400px;
 }
 
 .list {
     display: flex;
-    color: #C6C6C6;
+    color: white;
 }
 
 .list img {
     width: 20px;
+    margin-right: 15px;
 }
 .circle {
     position: absolute;
-    left: -1600px;
+    left: -1700px;
     top: -800px;
     z-index: -3;
 }
@@ -39,20 +41,28 @@ body {
     scale: .6;
 }
 
+.mello {
+    position: absolute;
+    width: 400px;
+    left: 0;
+    bottom: 0;
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
 }
 
 button {
-    width: 320px;
+    width: 380px;
     font-weight: 600;
     border-radius: 25px;
     border: none;
     font-size: 15px !important;
     height: 40px;
     -webkit-box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34); 
-box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34);
+    box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34);
+    cursor: pointer;
 }
 
 .signup {
@@ -62,4 +72,5 @@ box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34);
 
 .login {
     color: #A291FF;
+    margin-top: 20px;
 }
