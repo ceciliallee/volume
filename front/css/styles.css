@@ -6,6 +6,14 @@ body {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+
+
+
 .content {
     display: flex;
     justify-content: space-around;
@@ -45,6 +53,7 @@ body {
     left: calc( 100vw - 650px );
     top: calc( 0vh - 300px);
     scale: .6;
+    z-index: -3;
 }
 
 .mello {
@@ -73,7 +82,7 @@ button {
 
 .signup {
     background-color: #7962F4;
-    color: white;
+    color: white !important;
 }
 
 .login {
