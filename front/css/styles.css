@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro';
+    overflow: hidden;
+    background-color: #A291FF;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.right {
+    font-weight: 600;
+    color: white;
+}
+
+.list {
+    display: flex;
+    color: #C6C6C6;
+}
+
+.list img {
+    width: 20px;
+}
+.circle {
+    position: absolute;
+    left: -1600px;
+    top: -800px;
+    z-index: -3;
+}
+
+.biglogo {
+    position: absolute;
+    left: calc( 100vw - 650px );
+    top: calc( 0vh - 300px);
+    scale: .6;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 320px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px !important;
+    height: 40px;
+    -webkit-box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34); 
+box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34);
+}
+
+.signup {
+    background-color: #7962F4;
+    color: white;
+}
+
+.login {
+    color: #A291FF;
+}
