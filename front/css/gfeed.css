@@ -1,5 +1,19 @@
 body {
     background: #1F1F1F;
     margin: 0;
-    
+}
+
+.logo {
+    width: 110px;
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+.nav {
+    background-color: #000000;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    z-index: -3;
 }
