@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro';
+    overflow: hidden;
+    background-color: #1F1F1F;
+    font-size: 20px;
+    color: white;
+}
+
+.logo {
+    width: 30px;
+    position: absolute;
+    top: 45px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    margin-top: 250px;
+    /* width: 1400px; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.biglogo {
+    position: absolute;
+    left: calc( 100vw - 650px );
+    top: calc( 0vh - 300px);
+    scale: .6;
+    z-index: -3;
+}
+
+.card {
+    background-color: #A291FF;
+    border-radius: 20px;
+    width: 800px;
+    padding: 30px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+}
+.user .edit {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.stuff {
+    display: flex;
+    flex-direction: column;
+}
+
+#upload {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+button {
+    width: 150px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #7962F4;
+    color: white;
+}
+
+button, input {
+    border-radius: 25px;
+    border: none;
+    font-size: 15px !important;
+    height: 40px;
+    font-family: 'Source Sans Pro';
+    -webkit-box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34); 
+    box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34);
+}
+input {
+    background-color: white;
+    width: 250px;
+    padding-left: 20px;
+}
+
+.profile {
+    width: 120px;
+}
+
+#bio {
+    height: 100px;
+    width: 500px;
+}
+
+.welcome {
+    position: absolute;
+    width: 300px;
+    bottom: 60px;
+    right: 50px;
+}
