@@ -52,13 +52,20 @@ body {
 .profileinfo {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .profile img {
     width: 100px;
+    cursor: pointer;
 }
 
 .name {
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 15px;
 }
