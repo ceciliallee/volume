@@ -91,7 +91,6 @@ button, input {
 input {
     background-color: white;
     width: 360px;
-    font-size: 15px !important;
     padding-left: 20px;
 }
 
@@ -118,6 +117,60 @@ form {
     justify-content: space-evenly;
 }
 
+#login {
+    height: 200px;
+}
+
 .shift {
     margin-top: -50px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .content {
+        width: 1200px;
+    }
+
+    .mello, .welcome {
+        width: 380px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .circle {
+        left: -1800px;
+    }
+    .content {
+        width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .content {
+        width: 900px;
+    }
+    .mello, .welcome {
+        width: 330px;
+    }
+    .circle {
+        left: -1900px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+    button, input {
+        font-size:12px;
+    }
+    .content {
+        width: 850px;
+    }
+    .mello, .welcome {
+        width: 280px;
+    }
+    .circle {
+        left: -1980px;
+    }
 }
