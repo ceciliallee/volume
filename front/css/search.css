@@ -5,7 +5,7 @@ body {
 }
 
 .logo {
-    width: 100px;
+    width: 130px;
     position: absolute;
     top: 45px;
     left: 100px;
@@ -41,7 +41,7 @@ body {
 
 .scrollable{
     overflow-y: auto;
-    max-height: 300px;
+    max-height: 420px;
 }
 
 .profile {
@@ -52,8 +52,20 @@ body {
 .profileinfo {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .profile img {
     width: 100px;
+    cursor: pointer;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 15px;
 }
