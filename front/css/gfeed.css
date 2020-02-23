@@ -90,3 +90,7 @@ body {
 .bookmark {
     width: 20px;
 }
+
+.feeds a {
+    text-decoration: none;
+}
