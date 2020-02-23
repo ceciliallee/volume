@@ -11,7 +11,6 @@ function sendData(fullname, username, email, password) {
 }
 
 function signup(ev) {
-    console.log("hello");
     let fullname = document.querySelector("#fullname").value;
     let username = document.querySelector("#username").value;
     let email = document.querySelector("#email").value;
