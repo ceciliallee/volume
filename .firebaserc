@@ -1,5 +1,6 @@
 {
   "projects": {
-    "volumeup": "volumeupapp"
+    "volumeup": "volumeupapp",
+    "volume": "volumeupapp"
   }
 }
