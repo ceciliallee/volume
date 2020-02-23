@@ -118,6 +118,10 @@ form {
     justify-content: space-evenly;
 }
 
+#login {
+    height: 200px;
+}
+
 .shift {
     margin-top: -50px;
 }
