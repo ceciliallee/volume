@@ -6,18 +6,11 @@ body {
     font-size: 20px;
 }
 
-a {
-    text-decoration: none;
-}
-
-
-
-
-
 .content {
     display: flex;
     justify-content: space-around;
     margin-top: 250px;
+    width: 1400px;
 }
 
 .right {
@@ -56,36 +49,75 @@ a {
     z-index: -3;
 }
 
-.mello {
+.mello, .welcome {
     position: absolute;
     width: 420px;
+}
+
+.mello {
     left: 0;
     bottom: 0;
+}
+
+.welcome {
+    left: 100px;
+    bottom: 20px;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
 }
+.buttons a, .buttons a:visited {
+    color: white;
+}
+
 
 button {
     width: 380px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+button, input {
     border-radius: 25px;
     border: none;
     font-size: 15px !important;
     height: 40px;
+    font-family: 'Source Sans Pro';
     -webkit-box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34); 
     box-shadow: 5px 4px 15px 1px rgba(145,130,229,0.34);
-    cursor: pointer;
+}
+input {
+    background-color: white;
+    width: 360px;
+    font-size: 15px !important;
+    padding-left: 20px;
 }
 
 .signup {
     background-color: #7962F4;
-    color: white !important;
+    color: white;
 }
 
 .login {
     color: #A291FF;
     margin-top: 20px;
+}
+
+.small {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+form {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.shift {
+    margin-top: -50px;
 }
