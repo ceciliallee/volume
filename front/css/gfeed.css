@@ -96,6 +96,7 @@ body {
     width: 20px;
 }
 
-.feeds a {
+.gandp .feeds p, a {
     text-decoration: none;
+    text-decoration-color: white;
 }
