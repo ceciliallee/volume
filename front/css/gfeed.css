@@ -36,6 +36,11 @@ body {
     margin-right: 9px;
     margin-top: 5px;
 }
+.location {
+    font-size: 15px;
+    padding: 10px;
+    margin: 0px;
+}
 #active {
     text-decoration: underline;
 }
@@ -73,6 +78,9 @@ body {
     margin-left: 30px;
 }
 
+.card {
+    margin-bottom: 10px;
+}
 
 .content img {
     width: 150px;
