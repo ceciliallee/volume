@@ -26,22 +26,22 @@
                 <div class="inputs">
                     <div class="row">
                         <div class="column">
-                            <input type="text" placeholder="Username*">
-                            <input type="text" placeholder="Gender*">
-                            <input type="text" placeholder="School/University*">
+                            <input type="text" placeholder="Username*" id="username1">
+                            <input type="text" placeholder="Gender*" id="gender">
+                            <input type="text" placeholder="School/University*" id="school">
                         </div>
                         <div class="column">
-                            <input type="email" placeholder="School Email*">
-                            <input type="number" placeholder="Age*">
-                            <input type="text" placeholder="Spotify Link">
+                            <input type="email" placeholder="School Email*" id="email1">
+                            <input type="number" placeholder="Age*" id="age">
+                            <input type="text" placeholder="Spotify Link" id="link">
                         </div>
                     </div>
         
                     <div class="bio">
-                        <input id="bio" type="text" placeholder="Add a bio...">
+                        <input id="bio" type="text" placeholder="Add a bio..." id="bio">
                     </div>
                     <div class="savebutton">
-                        <button class="button">Save and Continue</button>
+                        <button class="button" onclick="edit(event)">Save and Continue</button>
                     </div>
                 </div>
                 
@@ -51,5 +51,27 @@
         <img class="biglogo" src="img/biglogo.svg">
         </div>
     </div>
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+	  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+	  <script src="/__/firebase/7.9.1/firebase-app.js"></script>
+	
+	  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+	  <script src="/__/firebase/7.9.1/firebase-analytics.js"></script>
+	
+	  <!-- Add Firebase products that you want to use -->
+	  <script src="/__/firebase/7.9.1/firebase-auth.js"></script>
+	  <script src="/__/firebase/7.9.1/firebase.js"></script>
+	  
+	  <!-- Previously loaded Firebase SDKs -->
+	
+	  <!-- Initialize Firebase -->
+	  <script src="/__/firebase/init.js"></script>
+	  
+     
+     
+    <script src="src/profile.js"></script>
+
 </body>
 </html>
