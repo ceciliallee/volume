@@ -54,3 +54,9 @@ body {
 .genres p {
     margin-top: 10px;
 }
+
+.genres:hover {
+    background-color: #7962F4;
+    color: white;
+    transition: all 300ms ease-in-out;
+}
