@@ -130,4 +130,27 @@ form {
     .content {
         width: 1200px;
     }
+
+    .mello, .welcome {
+        width: 380px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .circle {
+        left: -1800px;
+    }
+    .content {
+        width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .content {
+        width: 900px;
+    }
+    .mello, .welcome {
+        width: 330px;
+    }
 }
