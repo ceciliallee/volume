@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Join Volume</title>
 
-        
 
 </head>
 <body>
@@ -29,28 +28,38 @@
         <p>Create an account</p>
         <p class="small">Already have an account? Log in <a href="login.html">here</a>.</p>
 
-            <input type="text" placeholder="Full Name" id="fullname">
-            <input type="text" placeholder="Username" id="username">
-            <input type="email" placeholder="School Email" id="email">
-            <input type="password" placeholder="Password" id="password">
-            <button type="submit" class="signup" onclick="signup(event)">Sign up</button>
+            <input type="text" placeholder="Full Name" id="fullname" class="inputMargin">
+            <input type="text" placeholder="Username" id="username" class="inputMargin">
+            <input type="email" placeholder="School Email" id="email" class="inputMargin">
+            <input type="password" placeholder="Password" id="password" class="inputMargin">
+            <button type="submit" class="signup" class="inputMargin" onclick="signup(event)">Sign up</button>
 
         
     </div>
     <img class="biglogo" src="img/biglogo.svg"/>
         </div>
     </div>    
-     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="/__/firebase/7.9.1/firebase-app.js"></script>
+     
+     
+   <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="/__/firebase/7.9.1/firebase-analytics.js"></script>
-
-    <!-- Initialize Firebase -->
-    <script src="/__/firebase/init.js"></script>
-    
+	  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+	  <script src="/__/firebase/7.9.1/firebase-app.js"></script>
+	
+	  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+	  <script src="/__/firebase/7.9.1/firebase-analytics.js"></script>
+	
+	  <!-- Add Firebase products that you want to use -->
+	  <script src="/__/firebase/7.9.1/firebase-auth.js"></script>
+	  <script src="/__/firebase/7.9.1/firebase.js"></script>
+	  
+	  <!-- Previously loaded Firebase SDKs -->
+	
+	  <!-- Initialize Firebase -->
+	  <script src="/__/firebase/init.js"></script>
+	  
+     
+     
     <script src="src/profile.js"></script>
-
 </body>
 </html>

@@ -1,13 +1,13 @@
-//var database = firebase.database();
+ var database = firebase.database();
 
 function sendData(fullname, username, email, password) {
-		console.log(firebase.database);
+
     	firebase.database().ref('users/' + username).set({
         fullname: fullname,
         username: username,
         email: email,
         password: password
-    })
+    });
 }
 
 function signup(ev) {
