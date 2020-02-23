@@ -8,15 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Join Volume</title>
 
-         <!-- update the version number as needed -->
-         <script defer src="/__/firebase/7.9.1/firebase-app.js"></script>
-         <!-- include only the Firebase features as you need -->
-         <script defer src="/__/firebase/7.9.1/firebase-auth.js"></script>
-         <script defer src="/__/firebase/7.9.1/firebase-database.js"></script>
-         <script defer src="/__/firebase/7.9.1/firebase-messaging.js"></script>
-         <script defer src="/__/firebase/7.9.1/firebase-storage.js"></script>
-         <!-- initialize the SDK after all desired features are loaded -->
-         <script defer src="/__/firebase/init.js"></script>
+        
 
 </head>
 <body>
@@ -36,21 +28,19 @@
     <div class="buttons shift">
         <p>Create an account</p>
         <p class="small">Already have an account? Log in <a href="login.html">here</a>.</p>
-        <form>
+
             <input type="text" placeholder="Full Name" id="fullname">
             <input type="text" placeholder="Username" id="username">
             <input type="email" placeholder="School Email" id="email">
             <input type="password" placeholder="Password" id="password">
-            <button type="submit" class="signup">Sign up</button>
-        </form>
+            <button type="submit" class="signup" onclick="signup(event)">Sign up</button>
+
         
     </div>
     <img class="biglogo" src="img/biglogo.svg"/>
         </div>
     </div>    
-    
-    
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="/__/firebase/7.9.1/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
@@ -59,7 +49,7 @@
 
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
-
+    
     <script src="src/profile.js"></script>
 
 </body>

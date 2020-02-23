@@ -1,7 +1,8 @@
-var profileData = firebase.database();
+//var database = firebase.database();
 
 function sendData(fullname, username, email, password) {
-    profileData.ref('users/' + username).set({
+		console.log(firebase.database);
+    	firebase.database().ref('users/' + username).set({
         fullname: fullname,
         username: username,
         email: email,
@@ -15,6 +16,6 @@ function signup(ev) {
     let username = document.querySelector("#username").value;
     let email = document.querySelector("#email").value;
     let password = document.querySelector("#password").value;
-
+	
     sendData(fullname, username, email, password);
 }
