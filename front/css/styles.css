@@ -125,3 +125,9 @@ form {
 .shift {
     margin-top: -50px;
 }
+
+@media only screen and (max-width: 1300px) {
+    .content {
+        width: 1200px;
+    }
+}
