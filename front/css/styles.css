@@ -117,6 +117,10 @@ form {
     justify-content: space-evenly;
 }
 
+.inputMargin {
+	margin: 8px;
+}
+
 #login {
     height: 200px;
 }
