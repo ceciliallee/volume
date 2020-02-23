@@ -23,30 +23,30 @@
         <p>Pick your favorite music genres.</p>
         <div class="row">
             <div class="column">
-                <div class="genres">
+                <div class="genres" onclick=selected1(this)>
                     <p>Pop</p>
                 </div>
-                <div class="genres">
+                <div class="genres" onclick=selected2(this)>
                     <p>Jazz/Classical</p>
                 </div>
-                <div class="genres">
+                <div class="genres" onclick=selected3(this)>
                     <p>Hip hop</p>
                 </div>
-                <div class="genres">
+                <div class="genres" onclick=selected4(this)>
                     <p>Rock</p>
                 </div>
             </div>
             <div class="column">
-                <div class="genres">
+                <div class="genres" onclick=selected5(this)>
                     <p>Indie</p>
                 </div>
-                <div class="genres">
+                <div class="genres" onclick=selected6(this)>
                     <p>Dance/Electronic</p>
                 </div>
-                <div class="genres">
+                <div class="genres" onclick=selected7(this)>
                     <p>R&B</p>
                 </div>
-                <div class="genres">
+                <div class="genres" onclick=selected8(this)>
                     <p>Other</p>
                 </div>
             </div>
@@ -55,6 +55,133 @@
         
     </div>
     <a href="gfeed.html"><button class="">Next</button></a>
+    <script>
+        var clicked1 = false;
+        var divItems = document.getElementsByClassName("genres");
+
+        function selected1(item) {
+            if (clicked1 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked1 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked1 = true;
+            }
+        }
+    </script>
+    <script>
+        var clicked2 = false;
+        var divItems = document.getElementsByClassName("genres");
     
+        function selected2(item) {
+            if (clicked2 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked2 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked2 = true;
+            }
+        }
+    </script>
+    <script>
+        var clicked3 = false;
+        var divItems = document.getElementsByClassName("genres");
+    
+        function selected3(item) {
+            if (clicked3 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked3 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked3 = true;
+            }
+        }
+    </script>
+    <script>
+        var clicked4 = false;
+        var divItems = document.getElementsByClassName("genres");
+    
+        function selected4(item) {
+            if (clicked4 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked4 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked4 = true;
+            }
+        }
+    </script>
+    <script>
+        var clicked5 = false;
+        var divItems = document.getElementsByClassName("genres");
+    
+        function selected5(item) {
+            if (clicked5 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked5 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked5 = true;
+            }
+        }
+    </script>
+    <script>
+        var clicked6 = false;
+        var divItems = document.getElementsByClassName("genres");
+    
+        function selected6(item) {
+            if (clicked6 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked6 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked6 = true;
+            }
+        }
+    </script>
+    <script>
+        var clicked7 = false;
+        var divItems = document.getElementsByClassName("genres");
+    
+        function selected7(item) {
+            if (clicked7 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked7 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked7 = true;
+            }
+        }
+    </script>
+    <script>
+        var clicked8 = false;
+        var divItems = document.getElementsByClassName("genres");
+    
+        function selected8(item) {
+            if (clicked8 === true) {
+                item.style.backgroundColor = 'white';
+                item.style.color = 'black';
+                clicked8 = false;
+            } else {
+                item.style.backgroundColor = '#7962F4';
+                item.style.color = 'white';
+                clicked8 = true;
+            }
+        }
+    </script>
 </body>
 </html>
