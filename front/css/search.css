@@ -1,6 +1,6 @@
 body {
     background: #1F1F1F;
-    margin-bottom: 100px;
+    margin: 0;
     font-family: 'Source Sans Pro';
 }
 
@@ -31,4 +31,29 @@ body {
 
 .toparea {
     margin-top: 120px;
+}
+
+.card{
+    width: 600px;
+    height: 450px;
+    margin: 30px auto;
+}
+
+.scrollable{
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile img {
+    width: 100px;
 }
