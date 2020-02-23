@@ -1,19 +1,67 @@
 body {
     background: #1F1F1F;
-    margin: 0;
+    margin-bottom: 100px;
+    font-family: 'Source Sans Pro';
 }
 
 .logo {
-    width: 110px;
-    position: absolute;
-    top: 45px;
-    left: 100px;
+    width: 100px;
 }
 
-.nav {
-    background-color: #000000;
-    position: fixed;
-    height: 120px;
-    width: 100%;
-    z-index: -3;
+.gandp {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    margin: auto;
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#active {
+    text-decoration: underline;
+}
+.cardx {
+    margin: auto;
+    width: 700px;
+    background-color:#7AAAD3;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 4px 15px 1px rgba(70, 70, 71, 0.34); 
+    box-shadow: 5px 4px 15px 1px rgba(70, 70, 71, 0.34);
+}
+
+.top p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content p {
+    margin-left: 30px;
+}
+
+
+.content img {
+    width: 150px;
+}
+
+
+.bookmark {
+    width: 20px;
 }

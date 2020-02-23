@@ -17,6 +17,25 @@ body {
 
 }
 
+.search {
+    display: flex;
+}
+
+.search input {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    align-self: center;
+    height: 28px;
+    padding-left: 40px;
+    background: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
 
 .logo {
     width: 30px;
