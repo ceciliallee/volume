@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="56.98" viewBox="0 0 184 56.98">
+  <g id="Group_19" data-name="Group 19" transform="translate(-188 -52.003)">
+    <g id="_10-speaker" data-name="10-speaker" transform="translate(55 4.003)">
+      <path id="Path_2" data-name="Path 2" d="M158.245,86.245a14.312,14.312,0,0,0-12.1-14.082C145.573,72.067,144,72,144,72v9.5a4.748,4.748,0,1,1,0,9.5v9.5A14.261,14.261,0,0,0,158.245,86.245Z" transform="translate(-11 -9.755)" fill="#7962f4"/>
+      <path id="Path_3" data-name="Path 3" d="M144,48v9.5a18.993,18.993,0,1,1,0,37.987v9.5A28.49,28.49,0,0,0,144,48Z" transform="translate(-4.25)" fill="#7962f4"/>
+    </g>
+    <text id="Volume" transform="translate(274 90)" fill="#fff" font-size="30" font-family="SourceSansPro-Semibold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Volume</tspan></text>
+  </g>
+</svg>

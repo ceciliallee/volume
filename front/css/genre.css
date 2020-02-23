@@ -17,6 +17,25 @@ body {
 
 }
 
+.search {
+    display: flex;
+}
+
+.search input {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    align-self: center;
+    height: 28px;
+    padding-left: 40px;
+    background: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
 
 .logo {
     width: 30px;
@@ -53,4 +72,28 @@ body {
 
 .genres p {
     margin-top: 10px;
+}
+
+.genres:hover {
+    background-color: #7962F4;
+    color: white;
+    transition: all 300ms ease-in-out;
+}
+
+
+button {
+    width: 280px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color:#7962F4;
+    border: none;
+    color: white;
+    font-size: 15px !important;
+    height: 40px;
+    font-family: 'Source Sans Pro';
+    -webkit-box-shadow: 5px 4px 15px 1px rgba(61, 61, 61, 0.34); 
+    box-shadow: 5px 4px 15px 1px rgba(61, 61, 61, 0.34);
+    margin-top: 20px;
+    margin-left: 800px;
 }
