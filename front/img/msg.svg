@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="27.62" height="27.62" viewBox="0 0 27.62 27.62">
-  <path id="message-square" d="M28.62,20.08a2.847,2.847,0,0,1-2.847,2.847H8.693L3,28.62V5.847A2.847,2.847,0,0,1,5.847,3H25.773A2.847,2.847,0,0,1,28.62,5.847Z" transform="translate(-2 -2)" fill="none" stroke="#907dfa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="31.931" height="31.931" viewBox="0 0 31.931 31.931">
+  <path id="message-square" d="M31.931,22.288A3.215,3.215,0,0,1,28.717,25.5H9.429L3,31.931V6.215A3.215,3.215,0,0,1,6.215,3h22.5a3.215,3.215,0,0,1,3.215,3.215Z" transform="translate(-1.5 -1.5)" fill="none" stroke="#9f9da9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
 </svg>
