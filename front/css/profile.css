@@ -7,19 +7,23 @@ body {
     color: white;
 }
 
+.header {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+
 .logo {
     width: 30px;
     position: absolute;
     top: 45px;
+    left: 100px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-}
-.content {
-    margin-top: 250px;
-    /* width: 1400px; */
 }
 
 .row {
@@ -27,7 +31,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
-
 
 .biglogo {
     position: absolute;
@@ -40,8 +43,11 @@ body {
 .card {
     background-color: #A291FF;
     border-radius: 20px;
-    width: 800px;
+    width: 700px;
     padding: 30px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .name {
@@ -59,7 +65,7 @@ body {
 
 .stuff {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #upload {
@@ -98,7 +104,7 @@ input {
 
 #bio {
     height: 100px;
-    width: 500px;
+    width: 540px;
 }
 
 .welcome {
