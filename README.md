@@ -1,5 +1,5 @@
 # Volume
-Pearl Hacks 2020Best in Collaboration Runner-Up
+Pearl Hacks 2020 Best in Collaboration Runner-Up
 
 As college students, we're always looking to go to concerts of artists that we love. However, our friend groups may not share the same music taste, making it difficult to find a group to go with. It can be unsafe, dangerous, and generally not as enjoyable to go to a concert, rave, or festivals alone. 
 
